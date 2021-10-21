@@ -1,0 +1,127 @@
+.tracksList {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 285px;
+    width: 36vw;
+}
+
+.tracks {
+    display: flex;
+    padding-bottom: 13px;
+    overflow-x: scroll;
+}
+
+.track {
+    opacity: 0.8;
+    transition: all .2s;
+    margin-left: 6px;
+}
+
+.track:hover{
+    opacity: 1;
+}
+
+.track-info {
+    cursor: pointer;
+}
+
+.track-image1 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track1.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image2 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track2.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image3 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track3.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image4 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track4.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image5 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track5.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image6 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track6.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-image7 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../assets/track7.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.track-singer {
+    font-weight: bold;
+    font-size: 17px;
+    margin: 6px 0 0 2px;
+}
+
+.track-name {
+    font-size: 15px;
+    margin: 2px 0 0 2px;
+}
+
+@media screen and (max-width: 1238px){
+    .tracksList {
+        width: 46vw;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .tracksList {
+        width: 38vw;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .tracksList {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 82vw;
+        margin-bottom: 40px;
+    }
+}

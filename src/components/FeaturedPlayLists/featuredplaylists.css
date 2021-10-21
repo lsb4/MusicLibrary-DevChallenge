@@ -1,0 +1,84 @@
+.playlists {
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 19px;
+}
+
+.featured {
+    display: flex;
+    padding-bottom: 4px;
+    overflow-x: scroll;
+}
+
+.playlist {
+    margin-right: 22px;
+}
+
+.playlist h2 {
+    margin: 14px 0 0 10px;
+    cursor: pointer;
+}
+
+.playlist p {
+    color: rgb(209, 209, 209);
+    margin-top: 8px;
+    margin-left: 12px;
+    cursor: default;
+}
+
+.playlist:last-child {
+    margin-right: 0;
+}
+
+.playlist1 {
+    width: 430px;
+    height: 240px;
+    background-image: url(../../assets/playlist1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.playlist2 {
+    width: 430px;
+    height: 240px;
+    background-image: url(../../assets/playlist2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.playlist3 {
+    width: 430px;
+    height: 240px;
+    background-image: url(../../assets/playlist3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.playlist4 {
+    width: 430px;
+    height: 240px;
+    background-image: url(../../assets/playlist4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1238px){
+    .playlists {
+        width: 90vw;
+    }
+}

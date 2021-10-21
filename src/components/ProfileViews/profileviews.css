@@ -1,0 +1,89 @@
+.profileViews {
+    color: rgb(196, 196, 196);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.profile {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-left: 6px;
+    transition: all .2s;
+    opacity: 0.7;
+}
+
+.profile:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.profile:hover p {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image1 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../assets/view1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.profile-image2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../assets/view2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.profile-image3 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../assets/view3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.profile-name {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 0;
+    transition: all .1s;
+}
+
+.profile-timeAgo {
+    margin-top: 4px;
+    color: rgb(148, 148, 148);
+    transition: all .2s;
+}
+
+.profile-albums {
+    color: rgb(148, 148, 148);
+    transition: all .2s;
+}
+
+@media screen and (max-width: 850px){
+
+    .profileViews {
+        width: 82vw;
+    }
+
+    .profile {
+        width: 100%;
+    }
+}
