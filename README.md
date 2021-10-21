@@ -1,3 +1,12 @@
+# Music Library DevChallenge
+Desafio do Music Library do [DevChallenge](https://devchallenge.vercel.app/challenges/5eeed967c2cfb17d361a5a60/details) utilizando HTML, CSS e ReactJS. Fiz algumas adaptações, mas no geral, o projeto final ficou bem parecido com o proposto.
+
+## Visualização no Desktop 🖥️
+![image](https://user-images.githubusercontent.com/55896135/138195456-22a79d14-c665-452f-8d58-2f4f73642ced.png)
+
+## Visualização no Celular 📱
+![image](https://user-images.githubusercontent.com/55896135/138195581-d227f860-76f4-4442-8699-16427b147fec.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
